@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="jsp.playerchessjavadst.GameBoard">
+    <Label text="Battle Arena" layoutX="350" layoutY="20"/>
+    <Button text="Start Game" layoutX="350" layoutY="100" fx:id="startButton"/>
+</AnchorPane>
